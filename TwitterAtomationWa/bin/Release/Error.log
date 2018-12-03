@@ -1,0 +1,449 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at TwitterAtomationWa.frmUserManagement.btnUpdate_Click(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\frmUserManagement.cs:line 226
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at TwitterAtomationWa.frmUserManagement.btnUpdate_Click(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\frmUserManagement.cs:line 226
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Objects.ObjectContext.AttachSingleObject(IEntityWrapper wrappedEntity, EntitySet entitySet, String argumentName)
+   at System.Data.Objects.ObjectContext.AttachTo(String entitySetName, Object entity)
+   at System.Data.Objects.ObjectSet`1.Attach(TEntity entity)
+   at TwitterAtomationWa.Classes.TwitterHelper.DeleteUser(Account vUser) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 53
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 30
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 176
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 258
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.Net.WebException: The underlying connection was closed: A connection that was expected to be kept alive was closed by the server.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Twitterizer.WebRequestBuilder.ExecuteRequest()
+   at Twitterizer.Core.TwitterCommand`1.ExecuteCommand()
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 24
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(String SenderScreenName, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 29
+   at TwitterAtomationWa.Classes.TwitterHelper.SendDmMessage(Nullable`1 SenderUserID, String ReciverScreenName, String Message, RequestResult& Result) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Classes\TwitterHelper.cs:line 186
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 100
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 264
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.Data.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. Refresh ObjectStateManager entries.
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Objects.ObjectContext.SaveChanges()
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 109
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 264
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.Data.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. Refresh ObjectStateManager entries.
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Objects.ObjectContext.SaveChanges()
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 109
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 264
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.Data.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. Refresh ObjectStateManager entries.
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Objects.ObjectContext.SaveChanges()
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 109
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 264
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.Data.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. Refresh ObjectStateManager entries.
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Objects.ObjectContext.SaveChanges()
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 109
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 264
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+System.Data.OptimisticConcurrencyException: Store update, insert, or delete statement affected an unexpected number of rows (0). Entities may have been modified or deleted since entities were loaded. Refresh ObjectStateManager entries.
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.ValidateRowsAffected(Int64 rowsAffected, UpdateCommand source)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Objects.ObjectContext.SaveChanges()
+   at TwitterAtomationWa.frmMain.SendNextMessage(Account item) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 109
+   at TwitterAtomationWa.frmMain.T_Tick(Object sender, EventArgs e) in c:\Users\Omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\Forms\frmMain.cs:line 264
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

@@ -1,0 +1,39 @@
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Data Explorer\sqlceca40.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Data Explorer\sqlcecompact40.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Data Explorer\sqlceer40EN.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Data Explorer\sqlceme40.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Data Explorer\sqlceoledb40.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Data Explorer\sqlceqp40.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Data Explorer\sqlcese40.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Data.sdf
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\TwitterAtomationWa.exe.config
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\TwitterAtomationWa.exe.manifest
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\TwitterAtomationWa.application
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\TwitterAtomationWa.exe
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\TwitterAtomationWa.pdb
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Newtonsoft.Json.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\System.Data.SqlServerCe.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Twitterizer2.dll
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Newtonsoft.Json.xml
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Release\Twitterizer2.xml
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.DM.frmMainForms.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmAddMessage.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmImportMessage.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmMain.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmLogin.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmProxies.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmSelectFollowers.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmSelectUser.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmSelectUserProxy.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmSetting.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmTwitterSetting.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.frmUserManagement.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.Properties.Resources.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.TwitterBrowser.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\Twitter Automation.csproj.GenerateResource.Cache
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.exe.manifest
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.application
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.exe
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.pdb
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.ViewMessage.resources
+C:\Users\omid\Documents\Visual Studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Release\TwitterAtomationWa.DM.frmReplayMessage.resources

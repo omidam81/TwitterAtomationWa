@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="DataEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Proxies" EntityType="DataModel.Proxy" />
+    <EntitySet Name="Accounts" EntityType="DataModel.Account" />
+    <EntitySet Name="Messages" EntityType="DataModel.Message" />
+  </EntityContainer>
+  <EntityType Name="Proxy">
+    <Key>
+      <PropertyRef Name="ProxyId" />
+    </Key>
+    <Property Name="ProxyName" Type="String" MaxLength="1200" Unicode="true" FixedLength="false" />
+    <Property Name="ProxyAddres" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ProxyPort" Type="Int32" />
+    <Property Name="ProxyUsername" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ProxyPassword" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="DateCreated" Type="DateTime" Precision="3" />
+    <Property Name="ProxyId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="String" Name="ScreenName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Name" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Token" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="TokenSecret" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="DateTime" Name="DateCreated" Precision="3" />
+    <Property Type="String" Name="ProxyAddress" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Type="String" Name="Message1" MaxLength="144" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+    <Property Type="Int32" Name="UserID" />
+    <Property Type="Int32" Name="ProxyID" />
+    <Property Type="Int32" Name="Priority" />
+    <Property Type="DateTime" Name="DateCreated" Precision="3" />
+    <Property Type="DateTime" Name="DateSended" Precision="3" />
+    <Property Type="String" Name="rScreenName" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Decimal" Name="rUserID" Precision="18" Scale="0" />
+    <Property Type="DateTime" Name="nextTryDate" Precision="3" />
+    <Property Type="String" Name="SenderscreenName" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

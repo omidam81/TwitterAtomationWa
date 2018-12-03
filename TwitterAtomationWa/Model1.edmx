@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DataModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="DataModelStoreContainer">
+          <EntitySet Name="Account" EntityType="DataModel.Store.Account" store:Type="Tables" />
+          <EntitySet Name="Message" EntityType="DataModel.Store.Message" store:Type="Tables" />
+          <EntitySet Name="Proxy" EntityType="DataModel.Store.Proxy" store:Type="Tables" />
+        </EntityContainer>
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="ScreenName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Token" Type="nvarchar" MaxLength="100" />
+          <Property Name="TokenSecret" Type="nvarchar" MaxLength="100" />
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="ProxyAddress" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="Message" Type="nvarchar" MaxLength="144" />
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserID" Type="int" />
+          <Property Name="ProxyID" Type="int" />
+          <Property Name="Priority" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="DateSended" Type="datetime" />
+          <Property Name="rScreenName" Type="nvarchar" MaxLength="100" />
+          <Property Name="rUserID" Type="numeric" />
+          <Property Name="nextTryDate" Type="datetime" />
+          <Property Name="SenderscreenName" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Proxy">
+          <Key>
+            <PropertyRef Name="ProxyId" />
+          </Key>
+          <Property Name="ProxyName" Type="nvarchar" MaxLength="1200" />
+          <Property Name="ProxyAddres" Type="nvarchar" MaxLength="100" />
+          <Property Name="ProxyPort" Type="int" />
+          <Property Name="ProxyUsername" Type="nvarchar" MaxLength="100" />
+          <Property Name="ProxyPassword" Type="nvarchar" MaxLength="100" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="ProxyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DataModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="DataEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Proxies" EntityType="DataModel.Proxy" />
+          <EntitySet Name="Accounts" EntityType="DataModel.Account" />
+          <EntitySet Name="Messages" EntityType="DataModel.Message" />
+        </EntityContainer>
+        <EntityType Name="Proxy">
+          <Key>
+            <PropertyRef Name="ProxyId" />
+          </Key>
+          <Property Name="ProxyName" Type="String" MaxLength="1200" Unicode="true" FixedLength="false" />
+          <Property Name="ProxyAddres" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="ProxyPort" Type="Int32" />
+          <Property Name="ProxyUsername" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="ProxyPassword" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+          <Property Name="ProxyId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Account">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="String" Name="ScreenName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Name" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Token" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TokenSecret" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Type="DateTime" Name="DateCreated" Precision="3" />
+          <Property Type="String" Name="ProxyAddress" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Message">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="String" Name="Message1" MaxLength="144" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
+          <Property Type="Int32" Name="UserID" />
+          <Property Type="Int32" Name="ProxyID" />
+          <Property Type="Int32" Name="Priority" />
+          <Property Type="DateTime" Name="DateCreated" Precision="3" />
+          <Property Type="DateTime" Name="DateSended" Precision="3" />
+          <Property Type="String" Name="rScreenName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Decimal" Name="rUserID" Precision="18" Scale="0" />
+          <Property Type="DateTime" Name="nextTryDate" Precision="3" />
+          <Property Type="String" Name="SenderscreenName" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities">
+          <EntitySetMapping Name="Proxies">
+            <EntityTypeMapping TypeName="DataModel.Proxy">
+              <MappingFragment StoreEntitySet="Proxy">
+                <ScalarProperty Name="ProxyName" ColumnName="ProxyName" />
+                <ScalarProperty Name="ProxyAddres" ColumnName="ProxyAddres" />
+                <ScalarProperty Name="ProxyPort" ColumnName="ProxyPort" />
+                <ScalarProperty Name="ProxyUsername" ColumnName="ProxyUsername" />
+                <ScalarProperty Name="ProxyPassword" ColumnName="ProxyPassword" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="ProxyId" ColumnName="ProxyId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Accounts">
+            <EntityTypeMapping TypeName="DataModel.Account">
+              <MappingFragment StoreEntitySet="Account">
+                <ScalarProperty Name="ProxyAddress" ColumnName="ProxyAddress" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="TokenSecret" ColumnName="TokenSecret" />
+                <ScalarProperty Name="Token" ColumnName="Token" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ScreenName" ColumnName="ScreenName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Messages">
+            <EntityTypeMapping TypeName="DataModel.Message">
+              <MappingFragment StoreEntitySet="Message">
+                <ScalarProperty Name="SenderscreenName" ColumnName="SenderscreenName" />
+                <ScalarProperty Name="nextTryDate" ColumnName="nextTryDate" />
+                <ScalarProperty Name="rUserID" ColumnName="rUserID" />
+                <ScalarProperty Name="rScreenName" ColumnName="rScreenName" />
+                <ScalarProperty Name="DateSended" ColumnName="DateSended" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="Priority" ColumnName="Priority" />
+                <ScalarProperty Name="ProxyID" ColumnName="ProxyID" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="Message1" ColumnName="Message" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams />
+  </Designer>
+</edmx:Edmx>

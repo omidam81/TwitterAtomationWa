@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b0173cea15d4077a588a9ea88f1e34c" Name="Diagram1">
+        <EntityTypeShape EntityType="DataModel.Proxy" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataModel.Account" Width="1.5" PointX="11.27539290826553" PointY="18.474034839530493" />
+        <EntityTypeShape EntityType="DataModel.Message" Width="1.5" PointX="8.358351469206788" PointY="18.991888517044433" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

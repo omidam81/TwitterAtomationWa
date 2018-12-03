@@ -1,0 +1,6 @@
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib\bin\Debug\Data.sdf
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib\bin\Debug\ClassLib.dll.config
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib\bin\Debug\ClassLib.dll
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib\bin\Debug\ClassLib.pdb
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib\obj\Debug\ClassLib.dll
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib\obj\Debug\ClassLib.pdb

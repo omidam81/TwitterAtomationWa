@@ -1,0 +1,9 @@
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\TwitterAtomationWa.exe.config
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\TwitterAtomationWa.exe
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\TwitterAtomationWa.pdb
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.csprojResolveAssemblyReference.cache
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.Form1.resources
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.Properties.Resources.resources
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.csproj.GenerateResource.Cache
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.exe
+c:\users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.pdb

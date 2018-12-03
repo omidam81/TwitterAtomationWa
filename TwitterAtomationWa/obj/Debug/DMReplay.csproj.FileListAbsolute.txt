@@ -1,0 +1,47 @@
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\TwitterAtomationWa.exe.config
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.exe
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.pdb
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Data Explorer\sqlceca40.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Data Explorer\sqlcecompact40.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Data Explorer\sqlceer40EN.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Data Explorer\sqlceme40.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Data Explorer\sqlceoledb40.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Data Explorer\sqlceqp40.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Data Explorer\sqlcese40.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Data.sdf
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\TwitterAtomationWa.exe.manifest
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\TwitterAtomationWa.application
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\TwitterAtomationWa.exe
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\TwitterAtomationWa.pdb
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Twitterizer2.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Twitterizer2.Streaming.dll
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Twitterizer2.xml
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\bin\Debug\Twitterizer2.Streaming.xml
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\DMReplay.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.DM.frmDmMessage.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.DM.frmMainForms.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.DM.frmReplayMessage.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmAddMessage.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmImportMessage.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmMain.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmLogin.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmProxies.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmSelectFollowers.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmSelectUser.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmSelectUserProxy.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmSetting.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmTwitterSetting.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.frmUserManagement.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.Forms.frmWebSetting.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.Properties.Resources.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.TwitterBrowser.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.ViewMessage.resources
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\DMReplay.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.exe.manifest
+C:\Users\Administrator\Desktop\TwitterAtomationWa\TwitterAtomationWa\obj\Debug\TwitterAtomationWa.application

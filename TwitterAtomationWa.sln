@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMReplay", "TwitterAtomationWa\DMReplay.csproj", "{ED380825-19A0-4255-9BBE-300612070880}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CCNET|Any CPU = CCNET|Any CPU
+		CCNET|x86-Only = CCNET|x86-Only
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		CD_ROM|x86-Only = CD_ROM|x86-Only
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86-Only = Debug|x86-Only
+		DVD-5|Any CPU = DVD-5|Any CPU
+		DVD-5|x86-Only = DVD-5|x86-Only
+		Mono-Debug|Any CPU = Mono-Debug|Any CPU
+		Mono-Debug|x86-Only = Mono-Debug|x86-Only
+		Mono-Release|Any CPU = Mono-Release|Any CPU
+		Mono-Release|x86-Only = Mono-Release|x86-Only
+		Release|Any CPU = Release|Any CPU
+		Release|x86-Only = Release|x86-Only
+		SingleImage|Any CPU = SingleImage|Any CPU
+		SingleImage|x86-Only = SingleImage|x86-Only
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED380825-19A0-4255-9BBE-300612070880}.CCNET|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.CCNET|Any CPU.Build.0 = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.CCNET|x86-Only.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.CD_ROM|x86-Only.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Debug|x86-Only.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.DVD-5|x86-Only.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Mono-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Mono-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Mono-Debug|x86-Only.ActiveCfg = Debug|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Mono-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Mono-Release|Any CPU.Build.0 = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Mono-Release|x86-Only.ActiveCfg = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.Release|x86-Only.ActiveCfg = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{ED380825-19A0-4255-9BBE-300612070880}.SingleImage|x86-Only.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

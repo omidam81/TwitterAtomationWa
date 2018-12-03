@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.4.0" ProviderManifestToken="4.0" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DataModelStoreContainer">
+    <EntitySet Name="Account" EntityType="DataModel.Store.Account" store:Type="Tables" />
+    <EntitySet Name="Message" EntityType="DataModel.Store.Message" store:Type="Tables" />
+    <EntitySet Name="Proxy" EntityType="DataModel.Store.Proxy" store:Type="Tables" />
+  </EntityContainer>
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="ScreenName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Token" Type="nvarchar" MaxLength="100" />
+    <Property Name="TokenSecret" Type="nvarchar" MaxLength="100" />
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DateCreated" Type="datetime" />
+    <Property Name="ProxyAddress" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="Message" Type="nvarchar" MaxLength="144" />
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="int" />
+    <Property Name="ProxyID" Type="int" />
+    <Property Name="Priority" Type="int" />
+    <Property Name="DateCreated" Type="datetime" />
+    <Property Name="DateSended" Type="datetime" />
+    <Property Name="rScreenName" Type="nvarchar" MaxLength="100" />
+    <Property Name="rUserID" Type="numeric" />
+    <Property Name="nextTryDate" Type="datetime" />
+    <Property Name="SenderscreenName" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Proxy">
+    <Key>
+      <PropertyRef Name="ProxyId" />
+    </Key>
+    <Property Name="ProxyName" Type="nvarchar" MaxLength="1200" />
+    <Property Name="ProxyAddres" Type="nvarchar" MaxLength="100" />
+    <Property Name="ProxyPort" Type="int" />
+    <Property Name="ProxyUsername" Type="nvarchar" MaxLength="100" />
+    <Property Name="ProxyPassword" Type="nvarchar" MaxLength="100" />
+    <Property Name="DateCreated" Type="datetime" />
+    <Property Name="ProxyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+</Schema>

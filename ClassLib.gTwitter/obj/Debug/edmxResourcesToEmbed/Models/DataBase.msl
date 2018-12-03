@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities2">
+    <EntitySetMapping Name="Proxies">
+      <EntityTypeMapping TypeName="DataModel.Proxy">
+        <MappingFragment StoreEntitySet="Proxy">
+          <ScalarProperty Name="ProxyId" ColumnName="ProxyId" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="ProxyPassword" ColumnName="ProxyPassword" />
+          <ScalarProperty Name="ProxyUsername" ColumnName="ProxyUsername" />
+          <ScalarProperty Name="ProxyPort" ColumnName="ProxyPort" />
+          <ScalarProperty Name="ProxyAddres" ColumnName="ProxyAddres" />
+          <ScalarProperty Name="ProxyName" ColumnName="ProxyName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DataModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="DataEntities2" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Proxies" EntityType="DataModel.Proxy" />
+  </EntityContainer>
+  <EntityType Name="Proxy">
+    <Key>
+      <PropertyRef Name="ProxyId" />
+    </Key>
+    <Property Type="String" Name="ProxyName" MaxLength="1200" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ProxyAddres" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="ProxyPort" />
+    <Property Type="String" Name="ProxyUsername" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="ProxyPassword" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="DateCreated" Precision="3" />
+    <Property Type="Int32" Name="ProxyId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+</Schema>

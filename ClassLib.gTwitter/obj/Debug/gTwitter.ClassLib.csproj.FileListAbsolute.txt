@@ -1,0 +1,8 @@
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib.gTwitter\bin\Debug\Models\Data.sdf
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib.gTwitter\bin\Debug\ClassLib.gTwitter.dll.config
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib.gTwitter\bin\Debug\ClassLib.gTwitter.dll
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib.gTwitter\bin\Debug\ClassLib.gTwitter.pdb
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib.gTwitter\obj\Debug\ClassLib.gTwitter.dll
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib.gTwitter\obj\Debug\ClassLib.gTwitter.pdb
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib.gTwitter\obj\Debug\gTwitter.ClassLib.csprojResolveAssemblyReference.cache
+C:\Users\omid\documents\visual studio 2012\Projects\TwitterAtomationWa\ClassLib.gTwitter\bin\Debug\Data.sdf

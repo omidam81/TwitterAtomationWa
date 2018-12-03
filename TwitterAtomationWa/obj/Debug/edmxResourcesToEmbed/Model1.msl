@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DataModelStoreContainer" CdmEntityContainer="DataEntities">
+    <EntitySetMapping Name="Proxies">
+      <EntityTypeMapping TypeName="DataModel.Proxy">
+        <MappingFragment StoreEntitySet="Proxy">
+          <ScalarProperty Name="ProxyName" ColumnName="ProxyName" />
+          <ScalarProperty Name="ProxyAddres" ColumnName="ProxyAddres" />
+          <ScalarProperty Name="ProxyPort" ColumnName="ProxyPort" />
+          <ScalarProperty Name="ProxyUsername" ColumnName="ProxyUsername" />
+          <ScalarProperty Name="ProxyPassword" ColumnName="ProxyPassword" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="ProxyId" ColumnName="ProxyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="DataModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="ProxyAddress" ColumnName="ProxyAddress" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="TokenSecret" ColumnName="TokenSecret" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ScreenName" ColumnName="ScreenName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Messages">
+      <EntityTypeMapping TypeName="DataModel.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="SenderscreenName" ColumnName="SenderscreenName" />
+          <ScalarProperty Name="nextTryDate" ColumnName="nextTryDate" />
+          <ScalarProperty Name="rUserID" ColumnName="rUserID" />
+          <ScalarProperty Name="rScreenName" ColumnName="rScreenName" />
+          <ScalarProperty Name="DateSended" ColumnName="DateSended" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Priority" ColumnName="Priority" />
+          <ScalarProperty Name="ProxyID" ColumnName="ProxyID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Message1" ColumnName="Message" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
